@@ -1,0 +1,4 @@
+{
+    "python.pythonPath": "C:\\Users\\amitb\\AppData\\Local\\Programs\\Python\\Python37\\python.exe",
+    "python.linting.pylintArgs":["--extension-pkg-whitelist=cv2"]    
+}
