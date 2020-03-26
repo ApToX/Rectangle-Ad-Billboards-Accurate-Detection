@@ -221,8 +221,7 @@ def remove_small_connected_components(img, param):
 # Change path according to your PC path.
 
 # Input Image
-path = r"C:\Users\User\Desktop\Data_Set\images_Labeled\img_02214.jpg"
-#path = "Data Set/img_00045.jpg"  # Amit's PC
+path = "Data Set/img_00045.jpg"
 
 img = cv2.imread(path, 1)
 source_img = copy.copy(img)
