@@ -267,7 +267,7 @@ for contour in contours:
 
 # Print Image [FOR DEBUG PURPOSES]
 cv2.imshow('Image with Input Crop', img_with_crop)
-cv2.imwrite('Input.png', img_with_crop)
+cv2.imwrite('src\Img_Write\Input.png', img_with_crop)
 if cv2.waitKey(0) & 0xff == 27:
     cv2.destroyAllWindows()
 
@@ -451,7 +451,7 @@ for point_index in range(len(candidates)):
     blank_img = np.zeros((height, width, 3), np.uint8)
     output = np.array([[0, 0], [0, 0], [0, 0], [0, 0]])
     counter = 1  # Round Index
-    number_of_variations = 9
+    number_of_variations = 3
     number_of_rounds = min(len(candidates[point_index][0]), number_of_variations) \
                        * min(len(candidates[point_index][1]), number_of_variations) \
                        * min(len(candidates[point_index][2]), number_of_variations) \
@@ -491,7 +491,7 @@ if scaled:
     cv2.imshow('Final Output [Scaled Down]', img)
 
 # Save Output Image With adjusted crop
-cv2.imwrite('Output.png', source_img)
+cv2.imwrite('src\Img_Write\Output.png', source_img)
 
 # Print Output Crop Image [FOR DEBUG PURPOSES]
 cv2.imshow('Final Output', source_img)
