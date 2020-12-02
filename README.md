@@ -1,5 +1,5 @@
 # Rectangle Ad Billboards Accurate Detection
- Detect Accurate Recatangle Ads by using inaccurate crop done by human and several DIP Algorithms. The Project was made during a Digital Image Processing Course at BGU.
+ Detect Accurate Rectangle Ads by using inaccurate crop done by human and several DIP Algorithms. The Project was made during a Digital Image Processing Course at BGU.
  
  Project was made by Yehonatan Fridman and Amit Binenfeld.
  
